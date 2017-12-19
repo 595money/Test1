@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Test1.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{AE6F37B9-152D-4EFD-A9D0-F1B3BD389703}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Test1.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Test1Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{2D60ABC0-0A71-4E11-A809-D69E08AABAD6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Test1">
+			<UniqueIdentifier>{64130A07-2F52-49D1-9F3E-E1283C59BA14}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Test1\Test1.Build.cs">
+			<Filter>Source\Test1</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Test1\Test1.cpp">
+			<Filter>Source\Test1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Test1\Test1.h">
+			<Filter>Source\Test1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Test1\Test1GameModeBase.cpp">
+			<Filter>Source\Test1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Test1\Test1GameModeBase.h">
+			<Filter>Source\Test1</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

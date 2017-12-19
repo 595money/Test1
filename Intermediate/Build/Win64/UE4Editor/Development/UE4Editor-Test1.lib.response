@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Test1.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Demonpig'S\UnrealProjects\ueroot\Test1\Intermediate\Build\Win64\UE4Editor\Development\Test1\Test1.cpp.obj"
+"D:\Demonpig'S\UnrealProjects\ueroot\Test1\Intermediate\Build\Win64\UE4Editor\Development\Test1\Test1GameModeBase.cpp.obj"
+"D:\Demonpig'S\UnrealProjects\ueroot\Test1\Intermediate\Build\Win64\UE4Editor\Development\Test1\Test1.init.gen.cpp.obj"
+"D:\Demonpig'S\UnrealProjects\ueroot\Test1\Intermediate\Build\Win64\UE4Editor\Development\Test1\Test1GameModeBase.gen.cpp.obj"
+"D:\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Test1\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Demonpig'S\UnrealProjects\ueroot\Test1\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Test1.lib"
